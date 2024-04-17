@@ -1,0 +1,30 @@
+body {
+  background: #022b42;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Override Chrome's autofill background color */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px #111 inset;
+  -webkit-text-fill-color: #fff;
+}
+
+/* For Firefox */
+input:-moz-autofill,
+input:-moz-autofill:hover,
+input:-moz-autofill:focus,
+input:-moz-autofill:active {
+  background: #111;
+  color: #fff;
+}
+a {
+  text-decoration: none;
+}
